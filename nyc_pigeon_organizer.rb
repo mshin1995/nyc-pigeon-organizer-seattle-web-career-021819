@@ -4,5 +4,6 @@ def nyc_pigeon_organizer(data)
     colors.each do |color, names|
       names.each do |names|
         new_hash[names] ||= {}
-        new_hash[names] 
+        new_hash[names][info] ||= []
+        new_hash[names][info] 
 end
